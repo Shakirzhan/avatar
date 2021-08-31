@@ -93,7 +93,7 @@ body {
 .application-line {
     position: absolute;
     left: 50px;
-    right: 210px;
+    right: 55px;
     height: 1px;
     background-color: #B8B8B8;
 }
@@ -740,6 +740,28 @@ body {
     margin-top: 120px;
 }
 
+.news-item__button--sea {
+    color: #039BE5;
+}
+
+.news-item__button--orange {
+    color: #FFAE35;
+}
+
+.news-item__dd {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+.news-item__dd span {
+    text-transform: uppercase;
+    color: #FFAE35;
+}
+
 @media(min-width: 1300px) {
     .container {
         padding: 0 50px;
@@ -836,11 +858,11 @@ body {
     }
 
     .news-stripes__le {
-        width: 20%;
+        width: 25%;
     }
 
     .news-stripes__ri {
-        width: 80%;
+        width: 75%;
     }
 
     .news-item {
@@ -858,6 +880,33 @@ body {
     .news-item__button svg {
         display: block;
     }
+
+    .application-line {
+        right: 210px;
+    }
+
+    .reviews-item {
+        width: 33%;
+    }
+
+    .reviews-item + .reviews-item {
+        margin-top: 0;
+    }
+
+    .reviews-form__input {
+        margin-right: 2%;
+    }
+
+    .reviews-form__input,
+    .reviews-form__input + .reviews-form__input {
+        margin: 0;
+        margin-right: 2%;
+        width: 32%;
+    }
+
+    .reviews-form__button {
+        width: 32%;
+    }
 }
 
 @media(min-width: 1600px) {
@@ -874,35 +923,8 @@ body {
         margin-top: 60px;
     }
 
-    .news-list {
-        padding-left: 100px;
-    }
-
-    .reviews-item {
-        width: 33%;
-    }
-
-    .reviews-item + .reviews-item {
-        margin-top: 0;
-    }
-
     .reviews--die {
         right: -195px;
-    }
-
-    .reviews-form__button {
-        width: 32%;
-    }
-
-    .reviews-form__input {
-        margin-right: 2%;
-    }
-
-    .reviews-form__input,
-    .reviews-form__input + .reviews-form__input {
-        margin: 0;
-        margin-right: 2%;
-        width: 32%;
     }
 
     .reviews-wrap {
